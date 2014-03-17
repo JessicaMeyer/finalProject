@@ -1,0 +1,130 @@
+/* home page image */
+
+img {
+display: inline-block;
+vertical-align: middle;
+width: 100%;
+height: 650px;
+}
+
+.image-section:before {  
+    content: "";  
+    display: block;  
+    position: absolute;   
+    background: rgba(8, 8, 8, 0.5); 
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+    background-size: cover;
+    width: 1265px;
+    height: 650px;
+}  
+
+
+.image-info-1 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   font-family: Helvetica;
+}
+
+.image-info-2 { 
+   position: absolute; 
+   top: 270px; 
+   left: 0; 
+   width: 100%; 
+   text-align: center;
+   color: white;
+   font-family: Helvetica;
+}
+
+/* buttons on home page image*/
+
+.buttons {
+    position: absolute; 
+    top: 370px; 
+    left: 0; 
+    width: 100%; 
+    text-align: center;
+}
+
+/* icons in second content section */
+
+.beer {
+    height: 64px;
+    width: 64px;
+}
+
+.music {
+    height: 64px;
+    width: 64px;
+}
+
+.shop {
+    height: 64px;
+    width: 64px;
+}
+
+.line-across {
+    padding-bottom: 60px;
+    border-bottom: 2px solid #33CCFF;
+    width: 100%;
+}
+
+/* text styling */
+
+h3 {
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 24px;
+    color: #413D3D;
+}
+
+p {
+    font-family: Helvetica;
+    color: #65727A;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 36px;
+    padding-top: 20px;
+    text-align: center;
+    color: #413D3D;
+}
+
+h4 {
+    font-weight: normal;
+    font-family: Helvetica;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #65727A;
+}
+
+/* footer */
+
+
+.footer-text {
+    color: white;
+    text-align: right;
+}
+
+/* about page */
+
+
+.about-panel {
+    padding-top: 60px;
+}
+
+/* contact/suggestions page */
+
+form {
+    padding-top: 60px;
+}
