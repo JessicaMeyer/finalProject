@@ -1,3 +1,16 @@
+/*navigation styles */
+
+.navigation-section {
+    background-color: #333;
+    .top-bar {
+        li {
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+
 /* home page image */
 
 img {
