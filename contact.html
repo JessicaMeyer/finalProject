@@ -42,10 +42,14 @@
             <input type='hidden' name='redirect_to' value='http://google.com' />
 
             <div class="large-6 columns">
-              <label>Full Name</label>
+              <label>First Name</label>
               <input type="text" name="name" value="" />
-              <small class="error">Please enter your full name</small>
+              <small class="error">Please enter your first name</small>
+              <label>Last Name</label>
+              <input type="text" name="name" value="" />
+              <small class="error">Please enter your last name</small>
             </div>
+            
             <div class="large-6 medium-6 columns">
               <label>E-mail</label>
               <input type="email" name='email'  pattern="email" required />
@@ -103,6 +107,11 @@
     <script src="js/foundation.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/foundation/foundation.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
    
   </body>
   </html>

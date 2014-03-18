@@ -1,0 +1,187 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover_Austin</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+
+<!-- navigation-->
+
+<div class="navigation-bar">
+
+<nav class="tab-bar">
+  <section class="left-small">
+    <h1 class="title">Discover_Austin</h1>
+  </section>
+  <section class="right-small">
+    <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
+    <section class="right tab-bar-section"></section>
+  </section>
+</nav>
+</div>
+
+ 
+    <!-- Plan your day intro details-->
+ 
+<h1>Plan your day in Austin</h1>
+  <p> It's easy </p>
+
+<h3> How it Works </h3>
+
+ <div class="row">
+  <div class="large-4 columns">
+    <div class = "panel">
+      <img class="beer" src="img/time.png" />
+      <h3> Choose Time Of Day </h3>
+          <p> Choose the time of day you want to include in your plan. AM, Afternoon, PM (of all three)! </p>
+  </div>
+</div>
+    
+<div class="row">
+  <div class="large-4 columns">
+    <div class = "panel">
+      <img class="music" src="img/music2.png" />
+      <h3> Select the types of things you want to do </h3>
+          <p> Choose the type of activity you want to include. Physical Activity, Food, Drink or Entertainment! </p>
+  </div>
+</div>
+    
+<div class="row">
+  <div class="large-4 columns">
+    <div class = "panel">
+    <img class="shop" src="img/smiley.png" />
+    <h3> Share with your friends </h3>
+          <p> Share your itinerary with your friends and enjoy Austin! </p>
+</div>
+
+            
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- beginning of simpleform for plan your day -->
+ 
+       <div class= "row">
+          <div class= "large-9 columns">
+        
+        <form action="http://getsimpleform.com/messages?form_api_token=f699f165550b64e757954f9899163c9d" method="post">
+  
+  <!-- form input fields -->
+  
+    <h4> Basic Information </h4>
+
+          <label> First Name </label>
+            <input type='text' name= "name" value = "" />
+                 <small class = "error"> Please enter your first name. </small>
+
+          <label> Last Name </label>
+            <input type='text' name= "name" value = "" />
+                <small class = "error"> Please enter your last name. </small>
+      </div>
+    </div>
+
+
+      <div class = "row">
+        <div class = "large-9 columns">
+          <label> E-mail </label>
+          <input type='text' name= "email" value = "" />
+          <small class= "error"> Please enter a valid e-mail. </small>
+        </div>
+      </div>
+   
+   <div class = "row">
+    <div class = "large-9 columns">
+      <label> Choose Time Of Day: </label><br />
+      <input id="checkbox1" required name="AM" type="checkbox"><label for="checkbox1">AM</label>
+      <input id="checkbox1" required name="Afternoon" type="checkbox"><label for="checkbox1">Afternoon</label>
+      <input id="checkbox1" required name="PM" type="checkbox"><label for="checkbox1">PM</label>
+    </div>
+  </div>
+
+  <div class = "row">
+    <div class = "large-9 columns">
+      <label> Choose Types of Things You Want to Include: </label><br />
+      <input id="checkbox1" required name="Physical Activity" type="checkbox"><label for="checkbox1">Physical Activity</label>
+      <input id="checkbox1" required name="Food" type="checkbox"><label for="checkbox1">Food</label>
+      <input id="checkbox1" required name="Drink" type="checkbox"><label for="checkbox1">Drink</label>
+      <input id="checkbox1" required name="Entertainment" type="checkbox"><label for="checkbox1">Entertainment</label>
+   </div>
+ </div>
+
+  <div class="row">
+            <div class="large-9 columns">
+              <input type='submit' id= "submit" value='Submit' />
+            </div>
+          </div>
+
+</form>
+
+
+    <!-- End Plan Your Day Form -->
+ 
+ 
+    <!-- Sidebar -->
+ 
+ 
+ <!--    <div class="large-3 columns">
+      <h5>How Does This Work?</h5>
+          <p>
+            <ol>
+                <li> Select the time of day you want to include. </li>
+                <li> Select the types of things you want to do </li>
+                <li> Submit! </li>
+                <li> Share with your friends </li>
+                <li> Go enjoy Austin </li>
+            </ol>
+          </p>
+    </div> -->
+
+    <!-- End Sidebar -->
+  </div>
+
+    
+<!--footer-->
+
+<footer class="row">
+  <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p>© Copyright Discover_Austin</p>
+  </div>
+  <div class="large-6 columns">
+      <ul class="inline-list right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Submit Ideas</a></li>
+          <li><a href="planyourday.html">Plan Your Day</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    
+<!--Javascript-->
+
+    <script src="js/script.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+   
+  </body>
+  </html>
