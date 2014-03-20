@@ -1,26 +1,47 @@
+
+
 /*navigation styles */
 
 .navigation-section {
-    background-color: #333;
-    .top-bar {
-        li {
-            text-transform: uppercase;
-        }
-    }
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 900;
+
+}
+    
+.top-bar-section {
+background-color: transparent;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 900;
+}
+
+.top-bar {
+  background-color: transparent;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 900;
 }
 
 
 
 /* home page image */
 
-img {
+.main-picture {
 display: inline-block;
 vertical-align: middle;
 width: 100%;
 height: 650px;
 }
 
-.image-section:before {  
+/*.image-section:before {  
     content: "";  
     display: block;  
     position: absolute;   
@@ -31,10 +52,11 @@ height: 650px;
     background-size: cover;
     width: 1265px;
     height: 650px;
-}  
+}  */
 
+/* writing on top of the main picture on home page */
 
-.image-info-1 { 
+.main-info-1 { 
    position: absolute; 
    top: 200px; 
    left: 0; 
@@ -45,7 +67,7 @@ height: 650px;
    font-family: Helvetica;
 }
 
-.image-info-2 { 
+.main-info-2 { 
    position: absolute; 
    top: 270px; 
    left: 0; 
@@ -67,6 +89,10 @@ height: 650px;
 
 /* icons in second content section */
 
+.intro-section {
+  padding-top: 200px;
+}
+
 .beer {
     height: 64px;
     width: 64px;
@@ -83,12 +109,21 @@ height: 650px;
 }
 
 .line-across {
-    padding-bottom: 60px;
     border-bottom: 2px solid #33CCFF;
     width: 100%;
 }
 
+/* third content section */
+
+#third-content-section {
+  background-color: #eee;
+  margin: 0;
+  padding-bottom: 100px;
+}
+
+
 /* text styling */
+
 
 h3 {
     font-weight: bold;
@@ -136,8 +171,12 @@ h4 {
     padding-top: 60px;
 }
 
-/* contact/suggestions page */
+/* plan your day page */
 
-form {
-    padding-top: 60px;
+.background-container {
+  background: #413D3D;
 }
+
+
+
+

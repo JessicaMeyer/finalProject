@@ -1,36 +1,12 @@
-(function() {
- 
-    // Create input element for testing
-    var inputs = document.createElement('input');
-     
-    // Create the supports object
-    var supports = {};
-     
-    supports.autofocus   = 'autofocus' in inputs;
-    supports.required    = 'required' in inputs;
-    supports.placeholder = 'placeholder' in inputs;
- 
-    // Fallback for autofocus attribute
-    if(!supports.autofocus) {
-         
-    }
-     
-    // Fallback for required attribute
-    if(!supports.required) {
-         
-    }
- 
-    // Fallback for placeholder attribute
-    if(!supports.placeholder) {
-         
-    }
-     
-    // Change text inside send button on submit
-    var send = document.getElementById('contact-submit');
-    if(send) {
-        send.onclick = function () {
-            this.innerHTML = '...Sending';
-        }
-    }
- 
-})();
+// script for finalProject
+
+new ElastiStack( element, {
+    // distDragBack: if the user stops dragging the image in a area that does not exceed [distDragBack]px 
+    // for either x or y then the image goes back to the stack 
+    distDragBack : 200,
+    // distDragMax: if the user drags the image in a area that exceeds [distDragMax]px 
+    // for either x or y then the image moves away from the stack 
+    distDragMax : 450,
+    // callback
+    onUpdateStack : function( current ) { return false; }
+} );

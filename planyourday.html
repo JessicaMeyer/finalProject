@@ -6,28 +6,31 @@
     <title>Discover_Austin</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
 
-<!-- navigation-->
+<div class = "background-container">
 
 <!-- navigation-->
 
-<!-- LARGE SCREEN TOP BAR MENU -->
+<!-- large screen top bar menu -->
+
 <section class="navigation-section show-for-large-up">
     <div class="row">
         <div class="large-12 columns">
-             
-            <!-- TOP BAR INITIALIZATION -->
+
             <nav class="top-bar" data-topbar>
                 <ul class="title-area">
                     <li class="name">
                         <h1></h1>
                     </li>
-                </ul> <!-- END UL.TITLE-AREA -->
+                </ul> 
  
-                <!-- TOP BAR MENU ELEMENTS -->
                 <section class="top-bar-section">
                     <ul class="left">
                         <li class="active"><a href="index.html">DISCOVER_AUSTIN</a></li>
@@ -41,17 +44,20 @@
                           
                         </li>
                     </ul>
-                </section> <!-- END SECTION.TOP-BAR-SECTION -->
-            </nav> <!-- END NAV.TOP-BAR -->
+                </section> 
+            </nav> 
  
-        </div> <!-- END 12 COLUMNS -->
-    </div> <!-- END ROW -->
-</section> <!-- END SECTION.NAVIGATION-SECTION -->
-<!-- OFF CANVAS SECTIONS WRAPPING THE MAIN CONTENT -->
+        </div> 
+    </div> 
+</section>
+
+<!-- off canvas sections wrapping the content -->
+
 <div class="off-canvas-wrap">
     <div class="inner-wrap">
  
-        <!-- OFF CANVAS MENU BAR -->
+        <!-- off canvas menu bar -->
+
         <nav class="tab-bar hide-for-large-up">
  
             <section class="left-small">
@@ -62,9 +68,10 @@
                 <h1 class="title">Menu</h1>
             </section>
  
-        </nav> <!-- END NAV.TAB-BAR HIDE-FOR-LARGE-UP -->
- 
-        <!-- OFF CANVAS MENU -->
+        </nav> 
+
+        <!-- off canvas menu -->
+
         <aside class="left-off-canvas-menu">
             <ul class="off-canvas-list">
                 <li><label>Navigation</label></li>
@@ -82,133 +89,32 @@
 
         </aside>
 
+
+<!-- second content section -->
+
+<div class = "background-container">
+
+<h2> Plan out your day in Austin </h2>
  
-    <!-- Plan your day intro details-->
- 
-<h1>Plan your day in Austin</h1>
-  <p> It's easy </p>
-
-<h3> How it Works </h3>
-
- <div class="row">
-  <div class="large-4 columns">
-    <div class = "panel">
-      <img class="beer" src="img/time.png" />
-      <h3> Choose Time Of Day </h3>
-          <p> Choose the time of day you want to include in your plan. AM, Afternoon, PM (of all three)! </p>
-  </div>
-</div>
-    
-<div class="row">
-  <div class="large-4 columns">
-    <div class = "panel">
-      <img class="music" src="img/music2.png" />
-      <h3> Select the types of things you want to do </h3>
-          <p> Choose the type of activity you want to include. Physical Activity, Food, Drink or Entertainment! </p>
-  </div>
-</div>
-    
-<div class="row">
-  <div class="large-4 columns">
-    <div class = "panel">
-    <img class="shop" src="img/smiley.png" />
-    <h3> Share with your friends </h3>
-          <p> Share your itinerary with your friends and enjoy Austin! </p>
-</div>
-
-            
-        </div>
-      </div>
-    </div>
-  </div>
-
-    <!-- beginning of simpleform for plan your day -->
- 
-       <div class= "row">
-          <div class= "large-9 columns">
-        
-        <form action="http://getsimpleform.com/messages?form_api_token=f699f165550b64e757954f9899163c9d" method="post">
-  
-  <!-- form input fields -->
-  
-    <h4> Basic Information </h4>
-
-          <label> First Name </label>
-            <input type='text' name= "name" value = "" />
-                 <small class = "error"> Please enter your first name. </small>
-
-          <label> Last Name </label>
-            <input type='text' name= "name" value = "" />
-                <small class = "error"> Please enter your last name. </small>
-      </div>
-    </div>
-
-
-      <div class = "row">
-        <div class = "large-9 columns">
-          <label> E-mail </label>
-          <input type='text' name= "email" value = "" />
-          <small class= "error"> Please enter a valid e-mail. </small>
-        </div>
-      </div>
+     <ul id="elasticstack" class="elasticstack">
+        <li><img src="img/1.png" alt="01"/><h5>Saudade</h5></li>
+        <li><img src="img/2.jpg" alt="02"/><h5>Tuqburni</h5></li>
+        <li><img src="img/3.jpg" alt="03"/><h5>Retrouvailles</h5></li>
+        <li><img src="img/4.jpg" alt="04"/><h5>Onsra</h5></li>
+        <li><img src="img/5.jpg" alt="05"/><h5>Mamihlapinatapai</h5></li>
+        <li><img src="img/6.jpg" alt="06"/><h5>Koi No Yokan</h5></li>
+      </ul>
    
-   <div class = "row">
-    <div class = "large-9 columns">
-      <label> Choose Time Of Day: </label><br />
-      <input id="checkbox1" required name="AM" type="checkbox"><label for="checkbox1">AM</label>
-      <input id="checkbox1" required name="Afternoon" type="checkbox"><label for="checkbox1">Afternoon</label>
-      <input id="checkbox1" required name="PM" type="checkbox"><label for="checkbox1">PM</label>
-    </div>
-  </div>
-
-  <div class = "row">
-    <div class = "large-9 columns">
-      <label> Choose Types of Things You Want to Include: </label><br />
-      <input id="checkbox1" required name="Physical Activity" type="checkbox"><label for="checkbox1">Physical Activity</label>
-      <input id="checkbox1" required name="Food" type="checkbox"><label for="checkbox1">Food</label>
-      <input id="checkbox1" required name="Drink" type="checkbox"><label for="checkbox1">Drink</label>
-      <input id="checkbox1" required name="Entertainment" type="checkbox"><label for="checkbox1">Entertainment</label>
-   </div>
- </div>
-
-  <div class="row">
-            <div class="large-9 columns">
-              <input type='submit' id= "submit" value='Submit' />
-            </div>
-          </div>
-
-</form>
 
 
-    <!-- End Plan Your Day Form -->
- 
- 
-    <!-- Sidebar -->
- 
- 
- <!--    <div class="large-3 columns">
-      <h5>How Does This Work?</h5>
-          <p>
-            <ol>
-                <li> Select the time of day you want to include. </li>
-                <li> Select the types of things you want to do </li>
-                <li> Submit! </li>
-                <li> Share with your friends </li>
-                <li> Go enjoy Austin </li>
-            </ol>
-          </p>
-    </div> -->
-
-    <!-- End Sidebar -->
-  </div>
-
-  <!-- CLOSE THE OFF-CANVAS MENU -->
+  <!-- close the off-canvas menu -->
 
     <a class="exit-off-canvas"></a>
  
     </div>
-</div> <!-- END OFF CANVAS -->
+</div> 
 
+</div> <!-- end of background-container -->
     
 <!--footer-->
 
@@ -241,8 +147,13 @@
     <script src="js/foundation.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/foundation/foundation.js"></script>
-
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/js/foundation.min.js"></script>
+    <script src="js/draggabilly.pkgd.min.js"></script>
+    <script src="js/elastiStack.js"></script>
+    
+    <script>
+      new ElastiStack( document.getElementById( 'elasticstack' ) );
+    </script>
+    
     <script>
       $(document).foundation();
     </script>
