@@ -1,4 +1,6 @@
-
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
 
 /*navigation styles */
 
@@ -62,9 +64,8 @@ height: 650px;
    left: 0; 
    width: 100%; 
    text-align: center;
-   color: white;
+   color: #FFFFFF;
    font-weight: bold;
-   font-family: Helvetica;
 }
 
 .main-info-2 { 
@@ -73,8 +74,7 @@ height: 650px;
    left: 0; 
    width: 100%; 
    text-align: center;
-   color: white;
-   font-family: Helvetica;
+   color: #FFFFFF;
 }
 
 /* buttons on home page image*/
@@ -92,6 +92,7 @@ height: 650px;
 .intro-section {
   padding-top: 200px;
 }
+
 
 .beer {
     height: 64px;
@@ -116,7 +117,7 @@ height: 650px;
 /* third content section */
 
 #third-content-section {
-  background-color: #eee;
+  background-color: #d3d3d3;
   margin: 0;
   padding-bottom: 100px;
 }
@@ -129,7 +130,7 @@ h3 {
     font-weight: bold;
     font-family: Helvetica;
     font-size: 24px;
-    color: #413D3D;
+    color: #404749;
 }
 
 p {
@@ -138,12 +139,12 @@ p {
 }
 
 h2 {
-    font-weight: bold;
+    font-weight: normal;
     font-family: Helvetica;
     font-size: 36px;
     padding-top: 20px;
     text-align: center;
-    color: #413D3D;
+    color: #404749;
 }
 
 h4 {
@@ -153,14 +154,19 @@ h4 {
     padding-top: 10px;
     padding-bottom: 50px;
     text-align: center;
-    color: #65727A;
+    color: #404749;
+}
+
+h6 {
+  font-weight: bold;
+  text-align: center;
 }
 
 /* footer */
 
 
 .footer-text {
-    color: white;
+    color: #FFFFFF;
     text-align: right;
 }
 
@@ -174,9 +180,11 @@ h4 {
 /* plan your day page */
 
 .background-container {
-  background: #413D3D;
+  background: #CCCCCC;
 }
 
-
+.footer-row {
+  background: #CCCCCC;
+}
 
 
