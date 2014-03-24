@@ -87,7 +87,7 @@ height: 650px;
     text-align: center;
 }
 
-/* icons in second content section */
+/* icons in second content section of home page */
 
 .intro-section {
   padding-top: 200px;
@@ -114,7 +114,7 @@ height: 650px;
     width: 100%;
 }
 
-/* third content section */
+/* third content section on home page */
 
 #third-content-section {
   background-color: #d3d3d3;
@@ -168,14 +168,9 @@ h6 {
 .footer-text {
     color: #FFFFFF;
     text-align: right;
+    padding-top: 20px;
 }
 
-/* about page */
-
-
-.about-panel {
-    padding-top: 60px;
-}
 
 /* plan your day page */
 
@@ -187,4 +182,10 @@ h6 {
   background: #CCCCCC;
 }
 
+.jump-to-all {
+  position: relative;
+    left: 0; 
+    width: 100%; 
+    text-align: center;
+  }
 

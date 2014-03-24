@@ -10,137 +10,44 @@
   </head>
   <body>
 
-<!-- navigation-->
+<div class= "background-container">
 
-<!-- large screen top bar menu-->
-
-<section class="navigation-section show-for-large-up">
-    <div class="row">
-        <div class="large-12 columns">
-
-            <nav class="top-bar" data-topbar>
-                <ul class="title-area">
-                    <li class="name">
-                        <h1></h1>
-                    </li>
-                </ul> 
-
-                <section class="top-bar-section">
-                    <ul class="left">
-                        <li class="active"><a href="index.html">DISCOVER_AUSTIN</a></li>
-                      </ul>
-                     
-                        <ul class= "right">
-                        <li><a href="planyourday.html">Plan Your Day</a></li>
-                        <li><a href="viewAll.html">View All Plans</a></li>
-                        <li><a href="contact.html">Submit Ideas</a></li>
-                            </ul>
-                          
-                        </li>
-                    </ul>
-                </section> 
-            </nav> 
- 
-        </div> 
-    </div> 
-</section> 
-
-<!-- off canvas sections wrapping the main content -->
-
-<div class="off-canvas-wrap">
-    <div class="inner-wrap">
- 
-        <!-- off canvas menu bar -->
-
-        <nav class="tab-bar hide-for-large-up">
- 
-            <section class="left-small">
-                <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
-            </section>
- 
-            <section class="right tab-bar-section">
-                <h1 class="title">Menu</h1>
-            </section>
- 
-        </nav> 
- 
-        <!-- off canvas menu -->
-
-        <aside class="left-off-canvas-menu">
-            <ul class="off-canvas-list">
-                <li><label>Navigation</label></li>
-                <li><a href="index.html">Home</a></li>
-            </ul>
-            <ul class="off-canvas-list">
-                <li><a href="portfolio.html">Plan Your Day</a></li>
-            </ul>
-            <ul class="off-canvas-list">
-                <li><a href="portfolio.html">About</a></li>
-            </ul>
-            <ul class="off-canvas-list">
-                <li><a href="portfolio.html">Submit Ideas</a></li>
-            </ul>
-
-        </aside>
-
+ <h2> Submit Ideas of Things to Do Around Austin </h2>
       
 <!-- contact form -->
 
+<form>
+  <form data-abide action="http://getsimpleform.com/messages?form_api_token=f699f165550b64e757954f9899163c9d" method="post">
   <div class="row">
-      <div class="large-12 columns">
-        <h1> Submit Your Itinerary Suggestions </h1>
+    <div class="large-4 columns">
+      <label>First Name
+        <input type="text" placeholder="Jessica" />
+      </label>
     </div>
-</div>
-    
-    
+    <div class="large-4 columns">
+      <label>Last Name
+        <input type="text" placeholder="Meyer" />
+      </label>
+    </div>
+    <div class="row">
+    <div class="large-12 columns">
+      <label>E-mail
+        <input type="text" placeholder="JessLynnMeyer@gmail.com" />
+      </label>
+    </div>
+  </div>
+    <div class="row">
+    <div class="large-12 columns">
+      <label>Suggestions
+        <textarea placeholder="What do you like to do around Austin?"></textarea>
+      </label>
+    </div>
+  </div>
   <div class="row">
-      <div class="large-8 medium-8 columns">
-
-        <form data-abide action="http://getsimpleform.com/messages?form_api_token=f699f165550b64e757954f9899163c9d" method="post">
-          <div class="row">
-            <input type='hidden' name='redirect_to' value='http://google.com' />
-
-            <div class="large-6 columns">
-              <label>First Name</label>
-              <input type="text" name="name" value="" />
-              <small class="error">Please enter your first name</small>
-              <label>Last Name</label>
-              <input type="text" name="name" value="" />
-              <small class="error">Please enter your last name</small>
-            </div>
-            
-            <div class="large-6 medium-6 columns">
-              <label>E-mail</label>
-              <input type="email" name='email'  pattern="email" required />
-            </div>
-        </div>
-          
-          <div class="row">
-
-
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Submit Suggestions</label>
-              <textarea name="comments" ></textarea>
-            </div>
-          </div>
-          <div class="row">
             <div class="large-12 columns">
               <button type="submit">Submit</button>
             </div>
-          </div>
-        </form>
-      </div>     
-    </div>
-
-    <!-- end of contact form -->
-
-    <!-- close the off canvas menu -->
-
-    <a class="exit-off-canvas"></a>
- 
-    </div>
-</div> <!-- end of canvas-->
+</form>
 
     
 <!--footer-->
@@ -165,7 +72,7 @@
   </footer>
 
 
-
+</div>
     
 <!--Javascript-->
 
