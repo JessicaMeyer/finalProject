@@ -7,7 +7,7 @@ a {
   text-decoration: none;
   line-height: 80px;
 }
- 
+
 
 /*navigation styles */
 
@@ -50,18 +50,6 @@ width: 100%;
 height: 650px;
 }
 
-/*.image-section:before {  
-    content: "";  
-    display: block;  
-    position: absolute;   
-    background: rgba(8, 8, 8, 0.5); 
-      -webkit-background-size: cover;
-      -o-background-size: cover;
-      -moz-background-size: cover;
-    background-size: cover;
-    width: 1265px;
-    height: 650px;
-}  */
 
 /* writing on top of the main picture on home page */
 
@@ -116,11 +104,6 @@ height: 650px;
     width: 64px;
 }
 
-.line-across {
-    border-bottom: 2px solid #b6b6b6;
-    width: 100%;
-}
-
 /* third content section on home page */
 
 #third-content-section {
@@ -167,13 +150,18 @@ h6 {
 
 /* footer */
 
+.line-across {
+    border-bottom: 2px solid #b6b6b6;
+    width: 100%;
+}
+
 .copyright {
   padding-top: 35px;
   float: left;
 }
 
 
-/* plan your day page */
+/* plan your day page and view all page background-color */
 
 .background-container {
   background: #9ea09f;
@@ -181,12 +169,26 @@ h6 {
 }
 
 
-/* jump-to-all is the button that leads to the View All page in the plan your day page  */
+/* submit ideas page (contact us) */
 
-.jump-to-all {
-  position: relative;
-    left: 0; 
-    width: 100%; 
-    text-align: center;
-  }
+img.Submit-Ideas-Pic {
+position:relative;
+text-align: center;
+ padding-top: 20px;
+  border-radius: 50%;
+width: 90%;
+display: block;
+  margin-left: auto;
+  margin-right: auto
+}
 
+.Your-Ideas {
+  text-align: center;
+  padding-top: 25px;
+}
+
+form {
+  
+    width: 300px;
+    margin: 0 auto;
+}
