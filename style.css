@@ -89,19 +89,35 @@ height: 650px;
 }
 
 
-.beer {
+.glass {
     height: 64px;
     width: 64px;
+    position:relative;
+text-align: center;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .music {
     height: 64px;
     width: 64px;
+    position:relative;
+text-align: center;
+display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
-.shop {
+.food {
     height: 64px;
     width: 64px;
+    position:relative;
+text-align: center;
+display: block;
+  margin-left: auto;
+  margin-right: auto
+
 }
 
 /* third content section on home page */
@@ -110,6 +126,7 @@ height: 650px;
   background-color: #dddddd;
   margin: 0;
   padding-bottom: 100px;
+  padding-top: 10px;
 }
 
 
@@ -120,6 +137,10 @@ h3 {
     font-weight: bold;
     font-size: 24px;
     color: #313131;
+}
+
+h3.icon-title {
+  text-align: center;
 }
 
 p {
@@ -146,6 +167,12 @@ h4 {
 h6 {
   font-weight: bold;
   text-align: center;
+  font-size: 18px;
+}
+
+h6.panel {
+  background: #535d76;
+  color: #ffffff;
 }
 
 /* footer */
