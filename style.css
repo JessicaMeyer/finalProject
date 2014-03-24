@@ -2,6 +2,13 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+a {
+  color: #313131;
+  text-decoration: none;
+  line-height: 80px;
+}
+ 
+
 /*navigation styles */
 
 .navigation-section {
@@ -64,7 +71,7 @@ height: 650px;
    left: 0; 
    width: 100%; 
    text-align: center;
-   color: #FFFFFF;
+   color: #ffffff;
    font-weight: bold;
 }
 
@@ -74,7 +81,7 @@ height: 650px;
    left: 0; 
    width: 100%; 
    text-align: center;
-   color: #FFFFFF;
+   color: #ffffff;
 }
 
 /* buttons on home page image*/
@@ -110,14 +117,14 @@ height: 650px;
 }
 
 .line-across {
-    border-bottom: 2px solid #33CCFF;
+    border-bottom: 2px solid #b6b6b6;
     width: 100%;
 }
 
 /* third content section on home page */
 
 #third-content-section {
-  background-color: #d3d3d3;
+  background-color: #dddddd;
   margin: 0;
   padding-bottom: 100px;
 }
@@ -128,33 +135,29 @@ height: 650px;
 
 h3 {
     font-weight: bold;
-    font-family: Helvetica;
     font-size: 24px;
-    color: #404749;
+    color: #313131;
 }
 
 p {
-    font-family: Helvetica;
-    color: #65727A;
+    color: #424242;
 }
 
 h2 {
     font-weight: normal;
-    font-family: Helvetica;
     font-size: 36px;
     padding-top: 20px;
     text-align: center;
-    color: #404749;
+    color: #313131;
 }
 
 h4 {
     font-weight: normal;
-    font-family: Helvetica;
     font-size: 25px;
     padding-top: 10px;
     padding-bottom: 50px;
     text-align: center;
-    color: #404749;
+    color: #313131;
 }
 
 h6 {
@@ -164,23 +167,21 @@ h6 {
 
 /* footer */
 
-
-.footer-text {
-    color: #FFFFFF;
-    text-align: right;
-    padding-top: 20px;
+.copyright {
+  padding-top: 35px;
+  float: left;
 }
 
 
 /* plan your day page */
 
 .background-container {
-  background: #CCCCCC;
+  background: #9ea09f;
+
 }
 
-.footer-row {
-  background: #CCCCCC;
-}
+
+/* jump-to-all is the button that leads to the View All page in the plan your day page  */
 
 .jump-to-all {
   position: relative;
