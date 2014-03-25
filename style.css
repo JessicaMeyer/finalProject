@@ -234,8 +234,9 @@ form {
     color: #2f3565;
   }
   .buttons {
-    padding-top: 20px;
-    margin: 0;
+    margin: auto;
+    padding: auto;
+    clear: all;
   }
   h4 {
     display: none;
