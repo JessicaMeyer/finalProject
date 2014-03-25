@@ -2,6 +2,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+
 a {
   color: #313131;
   text-decoration: none;
@@ -12,31 +13,31 @@ a {
 /*navigation styles */
 
 .navigation-section {
-    background-color: transparent;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 900;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 900;
 
 }
     
 .top-bar-section {
-background-color: transparent;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 900;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 900;
 }
 
-a.top-bar {
+a.top-bar { /* adding the a makes the black go all the way across*/
   background-color: transparent;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 900;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 900;
 }
 
 
@@ -44,83 +45,82 @@ a.top-bar {
 /* home page image */
 
 .main-picture {
-display: inline-block;
-vertical-align: middle;
-width: 100%;
-height: 650px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 650px;
 }
 
 
 /* writing on top of the main picture on home page */
 
 .main-info-1 { 
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 100%; 
-   text-align: center;
-   color: #ffffff;
-   font-weight: bold;
+  position: absolute; 
+  top: 200px; 
+  left: 0; 
+  width: 100%; 
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .main-info-2 { 
-   position: absolute; 
-   top: 270px; 
-   left: 0; 
-   width: 100%; 
-   text-align: center;
-   color: #ffffff;
+  position: absolute; 
+  top: 270px; 
+  left: 0; 
+  width: 100%; 
+  text-align: center;
+  color: #ffffff;
 }
 
 /* buttons on home page image*/
 
 .buttons {
-    position: absolute; 
-    top: 370px; 
-    left: 0; 
-    width: 100%; 
-    text-align: center;
+  position: absolute; 
+  top: 370px; 
+  left: 0; 
+  width: 100%; 
+  text-align: center;
 }
 
-/* icons in second content section of home page */
+/* icons in second content section of home page (about) */
 
 .intro-section {
   padding-top: 200px;
 }
 
-
 .glass {
-    height: 64px;
-    width: 64px;
-    position:relative;
-text-align: center;
-display: block;
+  height: 64px;
+  width: 64px;
+  position:relative;
+  text-align: center;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .music {
-    height: 64px;
-    width: 64px;
-    position:relative;
-text-align: center;
-display: block;
+  height: 64px;
+  width: 64px;
+  position:relative;
+  text-align: center;
+  display: block;
   margin-left: auto;
   margin-right: auto
 }
 
 .food {
-    height: 64px;
-    width: 64px;
-    position:relative;
-text-align: center;
-display: block;
+  height: 64px;
+  width: 64px;
+  position:relative;
+  text-align: center;
+  display: block;
   margin-left: auto;
   margin-right: auto
 
 }
 
-/* third content section on home page */
+/* third content section on home page (sampling of plans) */
 
 #third-content-section {
   background-color: #dddddd;
@@ -134,13 +134,22 @@ display: block;
 
 
 h3 {
-    font-weight: bold;
-    font-size: 24px;
-    color: #313131;
+  font-weight: bold;
+  font-size: 24px;
+  color: #313131;
 }
 
 h3.icon-title {
   text-align: center;
+}
+
+h3.about-site {
+  font-weight: normal;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #313131;
 }
 
 p {
@@ -148,21 +157,13 @@ p {
 }
 
 h2 {
-    font-weight: normal;
-    font-size: 36px;
-    padding-top: 20px;
-    text-align: center;
-    color: #313131;
+  font-weight: normal;
+  font-size: 36px;
+  padding-top: 20px;
+  text-align: center;
+  color: #313131;
 }
 
-h4 {
-    font-weight: normal;
-    font-size: 25px;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    text-align: center;
-    color: #313131;
-}
 
 h6 {
   font-weight: bold;
@@ -188,7 +189,7 @@ h6.panel {
 }
 
 
-/* view all page background-color */
+/* view all plans page background-color */
 
 .background-container {
   background: #9ea09f;
@@ -197,17 +198,19 @@ h6.panel {
 
 .plan-page-intro {
   text-align: center;
+  font-size: 18px;
+  padding-top: 5px;
 }
 
 /* submit ideas page (contact us) */
 
 img.Submit-Ideas-Pic {
-position:relative;
-text-align: center;
- padding-top: 20px;
+  position:relative;
+  text-align: center;
+  padding-top: 20px;
   border-radius: 50%;
-width: 90%;
-display: block;
+  width: 90%;
+  display: block;
   margin-left: auto;
   margin-right: auto
 }
@@ -218,9 +221,8 @@ display: block;
 }
 
 form {
-  
-    width: 300px;
-    margin: 0 auto;
+  width: 300px;
+  margin: 0 auto;
 }
 
 /* media queries */
@@ -228,29 +230,31 @@ form {
 /* for small screens, phones held in portrait mode*/
 @media screen and (max-width: 320px) {
   
-  .main-picture {
-    display: none;
-  }
+.main-picture {
+  display: none;
+}
 
-  div.main-picture {
-    width: 30%;
-    height: 320px;
-    clear: all;
-    padding-top: 0
-  }
+div.main-picture {
+  width: 30%;
+  height: 320px;
+  clear: all;
+  padding-top: 0
+}
 
-  h4 {
-    color: #ffffff;
-  }
-  .buttons {
-    clear: all;
-  }
+h4 {
+  color: #ffffff;
+}
 
-  .main-info-1 {
-    color: #2f3565;
-  }
-  .main-info-2 {
-    color: #2f3565;
+.buttons {
+  clear: all;
+}
+
+.main-info-1 {
+  color: #2f3565;
+}
+  
+.main-info-2 {
+  color: #2f3565;
   }
 }
 
