@@ -2,6 +2,14 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+/* for pop out a links in slideshow on view plans page */
+
+/*a.stand-out {
+  color: #3F2665;
+  text-decoration: none;
+  line-height: 80px;
+  text-decoration: underline;
+}*/
 
 a {
   color: #313131;
@@ -31,7 +39,7 @@ a {
   z-index: 900;
 }
 
-a.top-bar { /* adding the a makes the black go all the way across*/
+.top-bar { /* adding the a makes the black go all the way across*/
   background-color: transparent;
   position: absolute;
   left: 0;
@@ -153,7 +161,14 @@ h3.about-site {
 }
 
 p {
-    color: #424242;
+  color: #424242;
+  text-align: left;
+  line-height: 30px;
+}
+
+p.plans-slideshow {
+  color: #2f3565;
+
 }
 
 h2 {
@@ -175,6 +190,8 @@ h6.panel {
   background: #535d76;
   color: #ffffff;
 }
+
+
 
 /* footer */
 
@@ -200,6 +217,13 @@ h6.panel {
   text-align: center;
   font-size: 18px;
   padding-top: 5px;
+}
+
+a.plan-links {
+  color: #3F2665;
+  text-decoration: none;
+  line-height: 80px;
+  text-decoration: underline;
 }
 
 /* submit ideas page (contact us) */
