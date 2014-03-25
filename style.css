@@ -237,6 +237,9 @@ form {
     padding-top: 20px;
     margin: 0;
   }
+  h4 {
+    display: none;
+  }
 }
 
 
