@@ -219,3 +219,29 @@ form {
     width: 300px;
     margin: 0 auto;
 }
+
+/* media queries */
+
+/* for small screens, phones held in portrait mode*/
+@media screen and (max-width: 320px) {
+  .main-picture {
+    display: none;
+  }
+  .main-info-1 {
+    color: #2f3565;
+  }
+  .main-info-2 {
+    color: #2f;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
