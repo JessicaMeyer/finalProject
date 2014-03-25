@@ -30,7 +30,7 @@ background-color: transparent;
     z-index: 900;
 }
 
-.top-bar {
+a.top-bar {
   background-color: transparent;
     position: absolute;
     left: 0;
@@ -188,13 +188,16 @@ h6.panel {
 }
 
 
-/* plan your day page and view all page background-color */
+/* view all page background-color */
 
 .background-container {
   background: #9ea09f;
 
 }
 
+.plan-page-intro {
+  text-align: center;
+}
 
 /* submit ideas page (contact us) */
 
@@ -233,6 +236,7 @@ form {
     width: 30%;
     height: 320px;
     clear: all;
+    padding-top: 0
   }
 
   h4 {
