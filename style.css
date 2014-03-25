@@ -225,10 +225,18 @@ form {
 /* for small screens, phones held in portrait mode*/
 @media screen and (max-width: 320px) {
   
+  .main-picture {
+    display: none;
+  }
+
   div.main-picture {
     width: 30%;
     height: 320px;
     clear: all;
+  }
+
+  h4 {
+    color: #ffffff;
   }
   .buttons {
     clear: all;
