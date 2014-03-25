@@ -227,19 +227,17 @@ form {
   .main-picture {
     display: none;
   }
+  div.main-picture {
+    height: 252px;
+  }
+  div.intro-section {
+    display: none;
+  }
   .main-info-1 {
     color: #2f3565;
   }
   .main-info-2 {
     color: #2f3565;
-  }
-  .buttons {
-    margin: auto;
-    padding: auto;
-    clear: all;
-  }
-  h4 {
-    display: none;
   }
 }
 
