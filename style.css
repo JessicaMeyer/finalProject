@@ -231,7 +231,11 @@ form {
     color: #2f3565;
   }
   .main-info-2 {
-    color: #2f;
+    color: #2f3565;
+  }
+  .buttons {
+    padding-top: 20px;
+    margin: 0;
   }
 }
 
