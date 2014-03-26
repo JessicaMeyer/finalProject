@@ -226,6 +226,9 @@ a.plan-links {
   text-decoration: underline;
 }
 
+span.icon.nav-close::before {
+  color: #2f3565;
+}
 /* submit ideas page (contact us) */
 
 img.Submit-Ideas-Pic {
