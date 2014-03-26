@@ -163,13 +163,13 @@ h3.about-site {
 p {
   color: #424242;
   text-align: left;
-  line-height: 30px;
-}
+ }
+ 
 
-p.plans-slideshow {
+/*p.plans-slideshow {
   color: #2f3565;
 
-}
+}*/
 
 h2 {
   font-weight: normal;
@@ -222,7 +222,7 @@ h6.panel {
 a.plan-links {
   color: #3F2665;
   text-decoration: none;
-  line-height: 80px;
+  /*line-height: 80px;*/
   text-decoration: underline;
 }
 
@@ -233,7 +233,7 @@ img.Submit-Ideas-Pic {
   text-align: center;
   padding-top: 20px;
   border-radius: 50%;
-  width: 90%;
+  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto
